@@ -1,0 +1,35 @@
+nav.navUser ul li a, nav.navUser ul li a span {
+    color: #020198;
+}
+.countPill{
+    background: #d3121b !important;
+    color: white !important;
+}
+.header-logo-image-container{
+    width: 100%;
+}
+.header-wrapper{
+    height: 25vh;
+    display: grid;
+    grid-template-columns: 350px 1fr 450px;
+}
+.header-blurb-1{
+    text-align: center;
+}
+.header-blurb-2{
+    padding-left: 10px;
+}
+.header-search{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#search_query{
+    border-radius: 8px;
+}
+body{
+    border-top: 5px solid #d3121b;
+}
+.navPages-item{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}

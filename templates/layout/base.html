@@ -17,6 +17,7 @@
 
         {{ getFontsCollection }}
         {{{stylesheet '/assets/css/theme.css'}}}
+        {{{stylesheet '/assets/css/custom.css'}}}
 
         {{{head.scripts}}}
         {{{head.rsslinks}}}
@@ -36,7 +37,7 @@
             {{> components/common/cookie}}
         {{/and}}
 
-        {{> components/common/header }}
+        {{> components/common/header-custom }}
         {{> components/common/body }}
         {{> components/common/footer }}
 
