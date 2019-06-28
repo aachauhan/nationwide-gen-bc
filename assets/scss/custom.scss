@@ -33,3 +33,15 @@ body{
     margin-left: 20px !important;
     margin-right: 20px !important;
 }
+.brands-wrapper{
+    //background: #d1d1d1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 35px;
+    height: 100px;
+}
+.brands-wrapper a img{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
