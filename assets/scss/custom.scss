@@ -104,7 +104,7 @@ a[aria-expanded="true"]{
     background-color: #d3121b;
 }
 .header{
-    background-image: url('/stencil/00000000-0000-0000-0000-000000000001/img/1800x440_header.png');
+    background-image: url('../img/1800x440_header.png');
     background-repeat: repeat-x;
     background-size: cover;
 }
@@ -179,7 +179,8 @@ button[data-action="inc"]{
     font-weight: 600;
 }
 .footer{
-    background-image: url('/stencil/00000000-0000-0000-0000-000000000001/img/1800x440_footer-min.jpg');
+    //background-image: url('/stencil/00000000-0000-0000-0000-000000000001/img/1800x440_footer-min.jpg');
+    background-image: url('../img/1800x440_footer-min.jpg');
     background-repeat: repeat-x;
     background-size: cover;
     border-top: 5px solid #d3121b;
