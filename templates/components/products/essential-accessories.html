@@ -1,0 +1,8 @@
+{{#each product.related_products}}
+<div class="ess-wrapper">
+    <img src="{{getImage image 'thumbnail'}}" />
+    <strong class="price--ess">{{ price.without_tax.formatted }}</strong>
+    <a href="{{url}}"><span>{{name}}</span></a>
+    <a href="{{add_to_cart_url}}" class="button button--primary"><i class="fas fa-shopping-cart"></i>Add To Cart</a>
+</div>
+{{/each}}
